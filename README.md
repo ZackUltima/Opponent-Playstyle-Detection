@@ -1,2 +1,14 @@
-# Opponent-Playstyle-Detection
-Self-research project that combines unsupervised learning, data analytics together and passion in football
+# Football Team Play Style Detection Using Unsupervised Learning
+Self-research project that combines unsupervised learning, data analytics and passion in sports
+
+
+This project aims to analyze and identify football team play styles using unsupervised machine learning techniques. Modern football clubs increasingly rely on data analytics to understand tactical patterns, evaluate opponents, and assess team performance. By leveraging match-level statistics such as Expected Goals (xG), possession, passing profiles, defensive pressure, and transition speed, this project discovers natural tactical clusters among teams without requiring any predefined labels. The goal is to produce meaningful insights into how teams behave on the pitch and to support data-driven tactical decision-making.
+
+The system uses publicly available datasets (e.g., StatsBomb open data, FBref, Kaggle datasets) and converts raw numerical match statistics into structured analytical features representing attacking intent, defensive pressure, ball progression, and overall intensity. After preprocessing and normalization, clustering algorithms such as K-Means, Hierarchical Clustering, or HDBSCAN are applied to automatically group teams by similar play styles. These clusters can represent tactical archetypes such as high-pressing teams, possession-oriented build-up sides, counter-attacking teams, or compact low-block defensive units.
+
+To make the insights interpretable, the project includes visualizations that summarize the results. Cluster plots, radar charts, and dimensionality reduction techniques like PCA help illustrate how teams differ across tactical dimensions. The result is a clear tactical “fingerprint” that analysts, coaches, or scouts could use when preparing for upcoming matches. This also allows comparisons between teams, analysis of how styles evolve over time, and identification of patterns associated with successful or unsuccessful performances.
+
+This project is developed in VS Code, using Python’s data science ecosystem (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, and optionally Plotly for interactive charts). The codebase is modular, allowing easy extension such as adding new metrics, incorporating player-level data, or experimenting with advanced clustering techniques. The repository includes scripts for data preprocessing, feature engineering, model training, visualization, and exporting results.
+
+Overall, this project demonstrates the ability to combine football domain knowledge, data processing, machine learning, and visual analytics to produce practical insights. It is designed to showcase technical competency in unsupervised learning while addressing a real-world sports analytics problem that can meaningfully impress recruiters and highlight applied AI/ML skills.
+
